@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pasteleria La sabrosa</title>
+    <link href="./css/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    </link>
+    <style>
+         #menu {
+            height: 11vh;
+        }
+
+        #cuerpo {
+            height: 81vh;
+        }
+
+        #pie {
+            height: 6vh;           
+        }
+
+        .footer{
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" id="contenedor">
+        <div id="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" width="60" height="55"/>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cliente.html">Cliente</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./admin.html">Pastelero <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="cuerpo">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Pedidos</h2>
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <th>Nombre</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                            <th>Descripción del Pastel</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cliente Uno</td>
+                                <td>81-43-32-22</td>
+                                <td>clienteuno@gmail.com</td>
+                                <td>Descripcion del pastel Uno</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente Dos</td>
+                                <td>21-43-32-32</td>
+                                <td>clientedos@gmail.com</td>
+                                <td>Descripcion del pastel Dos</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente Tres</td>
+                                <td>21-43-32-32</td>
+                                <td>clientetres@gmail.com</td>
+                                <td>Descripcion del pastel Tres</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <h2>Sabores</h2>
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <th>Sabor</th>
+                            <th>Cantidad</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sabor Uno</td>
+                                <td>130</td>
+                            </tr>
+                            <tr>
+                                <td>Sabor Dos</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Sabor Tres</td>
+                                <td>350</td>
+                            </tr>
+                            <tr>
+                                <td>Sabor Cuatro</td>
+                                <td>400</td>
+                            </tr>
+                            <tr>
+                                <td>Sabor Cinco</td>
+                                <td>500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <h2>Adornos</h2>
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <th>Adorno</th>
+                            <th>Cantidad</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Adorno Uno</td>
+                                <td>400</td>
+                            </tr>
+                            <tr>
+                                <td>Adorno Dos</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td>Adorno Tres</td>
+                                <td>550</td>
+                            </tr>
+                            <tr>
+                                <td>Adorno Cuatro</td>
+                                <td>650</td>
+                            </tr>
+                            <tr>
+                                <td>Adorno Cinco</td>
+                                <td>890</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>            
+            </div>
+        </div>
+        <div id="pie">
+            <footer class="bg-light text-center text-lg-start">                   
+                <div class="text-center p-3 footer">
+                  © 2022 Copyright: Pastelería del Norte
+                  Av. Garza Sada #125 Tel. 8183214343                      
+                </div>                  
+              </footer>
+        </div> 
+    </div>
+</body>
+
+
+</html>
